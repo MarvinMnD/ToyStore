@@ -38,4 +38,17 @@ layout: default
    'product_price': {{ page.price }},
   });
 </script>
+  <script>
+  window.dataLayer = window.dataLayer || [];
+  window.dataLayer.push({
+  "event": "addToCart",
+  "item": {
+    "id": "wooden-camera",
+    "name": "Wooden Camera",
+    "price": "24.0"
+  },
+  "location": "product",
+  "gtm.uniqueEventId": 7
+});
+</script>
 </div>
